@@ -18,4 +18,9 @@ class ExampleTest extends TestCase
 
         $response->assertStatus(200);
     }
+
+    public function test_it_fails()
+    {
+        $this->get('/test-true')->assertOk();
+    }
 }

@@ -24,3 +24,7 @@ Route::get('/first-build', function () {
 Route::get('/second-buid', function () {
     return 2;
 });
+
+Route::get('/test-true', function (){
+    abort(401);
+});
