@@ -48,3 +48,7 @@ jobs:
   - composer install
   script:
   - php vendor/bin/phpunit
+
+  release:
+    environment: staging
+    url: https://ci-stg.sun-asterisk.vn

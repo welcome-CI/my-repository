@@ -24,3 +24,11 @@ Route::get('/first-build', function () {
 Route::get('/second-buid', function () {
     return 2;
 });
+
+Route::get('/test-true', function (){
+    return 1;
+});
+
+Route::get('/demo', function (){
+    return 1;
+});
