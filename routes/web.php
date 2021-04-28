@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/first-build', function () {
     return 1;
 });
+
+Route::get('/second-buid', function () {
+    return 2;
+});
