@@ -36,3 +36,7 @@ Route::get('/demo', function (){
 Route::get('/relase', function () {
     return 1;
 });
+
+Route::get('/rease2', function () {
+    return 1;
+});
