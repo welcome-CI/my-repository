@@ -23,4 +23,10 @@ class ExampleTest extends TestCase
     {
         $this->get('/second-buid')->assertOk();
     }
+
+    public function test_it_true()
+    {
+        $this->get('/test-true')->assertOk();
+
+    }
 }
