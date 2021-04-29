@@ -32,3 +32,7 @@ Route::get('/test-true', function (){
 Route::get('/demo', function (){
     return 1;
 });
+
+Route::get('/relase', function () {
+    return 1;
+});
